@@ -1,3 +1,9 @@
 const CatFileCommand = require("./cat-file");
 const HashObjectCommand = require("./hash-object");
-module.exports = {CatFileCommand,HashObjectCommand}
+const LsTreeCommand = require("./ls-tree");
+
+module.exports = {
+    CatFileCommand,
+    HashObjectCommand,
+    LsTreeCommand,
+}
